@@ -109,7 +109,7 @@ def send_weather(access_token, weather):
                 "value": weather[3]
             },
             "today_note": {
-                "value": get_daily_love()
+                "value": "你好"#get_daily_love()
             }
         }
     }
@@ -130,4 +130,4 @@ def weather_report(this_city):
 
 
 if __name__ == '__main__':
-    weather_report("淄博")
+    weather_report("深圳")
