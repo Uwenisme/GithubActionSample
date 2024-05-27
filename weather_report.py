@@ -109,7 +109,7 @@ def send_weather(access_token, weather):
                 "value": weather[3]
             },
             "today_note": {
-                "value": "你好"#get_daily_love()
+                "value": "林医生，早上要心情好呀！记得别忘记吃药噢！"#get_daily_love()
             }
         }
     }
